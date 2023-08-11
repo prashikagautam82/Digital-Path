@@ -1,0 +1,63 @@
+h1{
+    color: white;
+    text-align: center;
+    font-family: kgPrimaryPenmanship;
+
+    
+}
+h2{
+    color:saddlebrown;
+font-size:400% ;
+text-align: left;
+font-family:kgPrimaryPenmanship;
+text-decoration: underline;
+margin-top:15px;
+margin-bottom: 15px;
+}
+
+p{
+    font-family: kgPrimaryPenmanship;
+    overflow: auto;
+    font-size: 20px;
+}
+
+/* .post-container{
+    background-color: white;
+    border-radius: 25px;
+    width: 50%;
+    margin: 20px;
+    height: 500px;
+    margin-left: 100px;
+    padding: 50px;
+
+} */
+
+.small-post-container{
+    background-color: white;
+    border-radius: 25px;
+    width: 30%;
+    margin: 20px;
+    margin-left: 100;
+    padding: 30;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+
+}
+
+.medium-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* width:50%; */
+}
+
+
+/* .big-box{
+    display: flex;
+} */
+
+@font-face {
+    font-family: kgPrimaryPenmanship;
+    src: url(Downloads/kg-primary-penmanship.penmanship.ttf);
+}
